@@ -1,0 +1,719 @@
+/* Full CSS code with adjustments for better display and alignment */
+
+/* General Styles */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* Main Section */
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: auto;
+    width: 210vh;
+    /* margin-left: 200px;  */
+}
+
+.main img {
+    width: 487px;
+    height: 737px;
+    margin-top: 80px;
+}
+
+#heading-award h3 {
+    margin-top: 203px;
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#heading-award h4 {
+    margin-top: 2px;
+    width: 630px;
+    height: 100px;
+    text-align: left;
+    font: normal normal bold 50px/50px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+#heading-award p {
+    margin-top: 22px;
+    margin-right: 120px;
+    width: 584px;
+    height: 83px;
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.contact-us-btn {
+    top: 645px;
+    left: 376px;
+    width: 160px;
+    height: 50px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    opacity: 1;
+}
+
+/* What We Do Section */
+
+.what-we-do {
+    top: 937px;
+    /* margin-left: -4px; */
+    width: 1800px;
+    height: 1030px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.service {
+    display: flex;
+}
+
+.what-we-do h3 {
+    margin-top: 203px;
+    margin-left: 100px;
+    text-align: left;
+    font: normal normal 600 30px/110px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.service h4 {
+    margin-top: 2px;
+    margin-left: 100px;
+    width: 530px;
+    height: 100px;
+    text-align: left;
+    font: normal normal bold 50px/50px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.service-content p {
+    margin-left: 10px;
+    width: 484px;
+    height: 83px;
+    /* padding-top: 50px; */
+    text-align: left;
+    font: normal normal normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.img-1 {
+    margin-top: 121px;
+    margin-left: 100px;
+    background: transparent url('../images/1.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-2 {
+    margin-top: 121px;
+    margin-left: 75px;
+    background: transparent url('../images/2.png') 0% 0% no-repeat padding-box;
+}
+
+.img-3 {
+    margin-top: 121px;
+    margin-left: 75px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+}
+
+.icon {
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.img-3 #web {
+    margin-top: 35px;
+    margin-left: 49px;
+    width: 260px;
+    height: 24px;
+    text-align: center;
+    font: normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.img-3 p {
+    top: 1526px;
+    margin-left: 20px;
+    width: 320px;
+    height: 54px;
+    text-align: center;
+    font: normal 16px/30px Poppins;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+
+.read-more-btn {
+    margin-left: 90px;
+    margin-top: 30px;
+    width: 175px;
+    height: 50px;
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    border: none;
+}
+
+.read-more-btn b {
+    top: 1649px;
+    left: 1289px;
+    height: 20px;
+    text-align: left;
+    font: normal 600 14px/26px Poppins;
+    letter-spacing: 1.4px;
+    color: #FF3147;
+}
+
+.read-more-btn img {
+    top: 1654px;
+    left: 15px;
+    width: 37px;
+    height: 10px;
+}
+
+.img-4 {
+    margin-top: 121px;
+    margin-left: 75px;
+    width: 370px;
+    height: 526px;
+    background: transparent url('../images/3.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.circle-1 {
+    margin-top: 24px;
+    margin-left: 100px;
+    width: 30px;
+    height: 30px;
+    background: transparent url('../images/owl.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.circle-2 {
+    margin-top: 15px;
+    margin-left: 40px;
+    width: 8px;
+    height: 8px;
+    background: transparent url('../images/circle.png') 0% 0% no-repeat padding-box;
+}
+
+.circle-3 {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 8px;
+    height: 8px;
+    background: transparent url('../images/circle-2.png') 0% 0% no-repeat padding-box;
+}
+
+/* Why Choose Us Section */
+
+#why-choose {
+    margin-top: 167px;
+    margin-left: 600px;
+    width: auto;
+    height: 24px;
+    display: inline-block;
+    font: normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+#why-best {
+    margin-top: 57px;
+    margin-left: 500px;
+    width: auto;
+    height: 45px;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.why {
+    margin-top: 110px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+    width: 210vh;
+}
+
+.vision-img {
+    width: 72px;
+    height: 72px;
+    background: transparent url('../images/focus.png') 0% 0% no-repeat padding-box;
+}
+
+.vision h6 {
+    margin-top: 20px;
+    width: 190px;
+    text-align: left;
+    font: large larger 20px/80px Poppins;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.vision p {
+    margin-top: 20px;
+    width: 206px;
+    height: 75px;
+    text-align: left;
+    font: normal normal normal 16px/26px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.performance-img {
+    width: 72px;
+    height: 72px;
+    background: transparent url('../images/watch.png') 0% 0% no-repeat padding-box;
+}
+
+.security-img {
+    width: 72px;
+    height: 72px;
+    background: transparent url('../images/security.png') 0% 0% no-repeat padding-box;
+}
+
+.quality-img {
+    width: 72px;
+    height: 72px;
+    background: transparent url('../images/quality.png') 0% 0% no-repeat padding-box;
+}
+
+
+/* ==========OUR PROJECT SECTION STYLE=========== */
+
+#project {
+    margin-top: 56px;
+    margin-left: 600px;
+    width: auto;
+    height: 24px;
+    text-align: center;
+    display: inline-block;
+    font: normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    width: 210vh;
+    ;
+}
+
+.project-img {
+    top: 2718px;
+    margin-left: 100px;
+    width: 770px;
+    height: 567px;
+    background: transparent url('../images/image.png') 0% 0% no-repeat padding-box;
+}
+
+.japan-hot {
+    margin-left: 40px;
+    top: 2718px;
+    width: 370px;
+    height: 189px;
+    padding: 30px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.japan-hot:hover{
+    background-color: red;
+}
+
+.japan-hot p {
+    margin-top: 20px;
+    width: 240px;
+    height: 79px;
+    text-align: left;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+
+.strategy {
+    margin-left: 40px;
+    top: 2718px;
+    width: 370px;
+    height: 189px;
+    padding: 30px;
+    color: #000000;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.strategy:hover{
+    background-color: red;
+}
+
+#strategy {
+    text-align: left;
+    font: normal normal medium 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.strategy p {
+    margin-top: 20px;
+    width: 240px;
+    height: 79px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 16px/28px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+/* .strategy,.japan-hot:hover{
+    background-color: red;
+} */
+
+
+
+/* ==============EXPERT GROWTH SECTION STYLE================= */
+
+.expert-growth {
+    top: 37px;
+    width: 222vh;
+    height: 590px;
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+#expert-growth {
+    margin-top: 167px;
+    padding-top: 20px;
+    margin-left: 100px;
+    width: auto;
+    height: 24px;
+    text-align: center;
+    font: normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+#expert {
+    margin-top: 57px;
+    margin-left: 100px;
+    width: auto;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 110px;
+    margin-left: 100px;
+    margin-right: 10px;
+}
+
+.card-1 {
+    top: 3674px;
+    left: 375px;
+    width: 230px;
+    height: 253px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.card-1:hover{
+    box-shadow: 3px 6px 20px #672C2C1F;
+}
+
+.img-heart {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 39px;
+    height: 34px;
+    background: transparent url('../images/heart\ \(2\).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.card-title {
+    margin-top: 80px;
+    margin-left: 60px;
+    width: 148px;
+    height: 84px;
+    text-align: center;
+    font: normal normal 300 60px/65px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.card-text {
+    margin-top: 0px;
+    margin-left: 30px;
+    width: 208px;
+    height: 28px;
+    text-align: center;
+    font: normal normal 300 20px/80px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.img-clock {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 39px;
+    height: 34px;
+    background: transparent url('../images/clock\ \(3\).png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-complete {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 39px;
+    height: 34px;
+    background: transparent url('../images/Path\ 4402.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.img-award {
+    margin-top: 50px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+    width: 39px;
+    height: 34px;
+    background: transparent url('../images/Path\ 4406.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+/* ==============CLIENT FEEDBACK SECTION STYLE================= */
+
+#client-feedback {
+    margin-top: 167px;
+    margin-left: 600px;
+    width: auto;
+    height: 24px;
+    display: inline-block;
+    font: normal 600 24px/26px Cormorant SC;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+#feedback {
+    margin-top: 57px;
+    margin-left: 450px;
+    width: auto;
+    height: 45px;
+    font: normal normal bold 45px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.para-image {
+    margin-top: 94px;
+    margin-left: 20%;
+    width: 64px;
+    height: 45px;
+    background: transparent url('../images/Quotemarks-left.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.para-image p {
+    margin-left: 4px;
+    width: 731px;
+    height: 62px;
+    padding: 10px;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+}
+
+.jannat {
+
+    margin-left: 20%;
+    padding-top: 50px;
+    padding-left: 10px;
+    width: 779px;
+    height: 60px;
+    text-align: left;
+    font: normal normal bolder 25px/34px Poppins;
+    letter-spacing: 0px;
+    color: #FF3147;
+}
+
+.jannat span {
+    top: 4378px;
+    left: 718px;
+    width: 338px;
+    height: 28px;
+    text-align: left;
+    font: normal normal 300 25px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+}
+
+.footer {
+    margin-top: 96px;
+    display: flex;
+    width: 222vh;
+    height: 310px;
+    /* UI Properties */
+    background: transparent url('../images/NoPath\ -\ Copy@2x.png') 0% 0% no-repeat padding-box;
+    opacity: 0.81;
+}
+
+.footer p {
+    display: flex;
+    margin: auto;
+    align-content: center;
+    width: 210vh;
+    height: 56px;
+    background: transparent url('../images/Group\ 500.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+
+
+#contact {
+    background: #e0e0e099;
+}
+
+.contact-us {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 120px;
+    top: 100px;
+    width: 450px;
+    height: 362px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+}
+
+
+.contact-heading {
+    margin-top: 31px;
+    margin-left: 32px;
+    width: 93px;
+    height: 26px;
+    text-align: left;
+    letter-spacing: 0.4px;
+    color: #2D3142;
+}
+
+
+.contact-us #email {
+    margin-top: 19px;
+    margin-left: 32px;
+    width: 386px;
+    height: 27px;
+    border-top: none;
+    border-bottom: 1px solid #6F718F99;
+    ;
+    border-left: none;
+    border-right: none;
+
+}
+
+.contact-us #firstname {
+    margin-top: 19px;
+    margin-left: 32px;
+    margin-right: 25px;
+    width: 178px;
+    height: 27px;
+    border-top: none;
+    border-bottom: 1px solid #6F718F99;
+    ;
+    border-left: none;
+    border-right: none;
+}
+
+.contact-us #lastname {
+    margin: auto;
+    width: 178px;
+    height: 27px;
+    border-top: none;
+    border-bottom: 1px solid #6F718F99;
+    ;
+    border-left: none;
+    border-right: none;
+}
+
+.contact-us #checkbox {
+    display: inline;
+    margin-top: 39px;
+    margin-left: 33px;
+    width: 14px;
+    height: 14px;
+    /* UI Properties */
+    border: 1px solid red;
+    border-radius: 3px;
+    opacity: 1;
+}
+
+.contact-us p {
+    display: inline-flex;
+    margin: auto;
+    width: 357px;
+    height: 39px;
+    /* UI Properties */
+    text-align: left;
+    letter-spacing: 0px;
+    color: #616678;
+    opacity: 0.9;
+}
+
+.btn {
+    margin-top: 25px;
+    margin-left: 32px;
+    width: 386px;
+    height: 52px;
+    color: #FFFFFF;
+    background: #FF3366 0% 0% no-repeat padding-box;
+    opacity: 1;
+    font-size: larger;
+}
+
